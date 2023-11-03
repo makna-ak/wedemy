@@ -1,0 +1,28 @@
+/*style jumotron*/
+.jumbotron {
+    background-image: url('gambar1.jpg');
+    background-size: cover;
+    height: 500px;
+    text-align: right;
+}
+
+.jumbotron .btn{
+    background-color: #9E907B;
+    border: none;
+    border-radius: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+/*style carousel*/
+.carousel-item {
+    height: 600px;
+}
+
+.carousel-item .btn{
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
