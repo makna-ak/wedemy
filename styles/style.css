@@ -15,14 +15,45 @@
 }
 
 /*style carousel*/
-.carousel-item {
+/* .carousel-item {
     height: 600px;
-}
+} */
 
-.carousel-item .btn{
+/* .carousel-item .btn{
     background-color: black;
     border: none;
     border-radius: 25px;
     padding-right: 25px;
     padding-left: 25px;
+} */
+
+.modal-content {
+    background: #EFE9E2;
+}
+
+.price, tr th, tfoot tr td{
+    background: #D8CEBF !important;
+    color: #000;
+    font-family: 'Italiana', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+tbody tr td {
+    background: #9E907B !important; 
+    font-size: 25px;
+    font-family: 'Inria Serif', serif;
+    display: grid;
+    align-items: center;
+}
+
+.table {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.table:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
 }
