@@ -57,3 +57,88 @@ tbody tr td {
 .table:hover {
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
 }
+
+body, footer, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 30px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu {
+    flex: 1;
+}
+
+.footer-menu h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-menu ul {
+    padding-left: 0;
+}
+
+.footer-menu li {
+    margin-bottom: 10px;
+}
+
+.footer-menu a {
+    color: #000000;
+}
+
+.footer-menu2 {
+    flex: 1;
+}
+
+.footer-menu2 ul {
+    padding-top: 15%;
+}
+
+.footer-menu2 li {
+    margin-bottom: 10px;
+}
+
+.footer-menu2 a {
+    color: #000000;
+}
+
+.footer-contact {
+    flex: 1;
+}
+
+.footer-contact h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-logo {
+    flex: 1;
+    text-align: right;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    text-align: center;
+    color: #000000;
+    font-size: 14px;
+}
