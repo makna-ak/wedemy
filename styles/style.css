@@ -1,3 +1,10 @@
+.logo-navbar {
+    max-width: 100%; 
+    max-height: 50px; 
+    height: auto; 
+    margin-right: 10px;
+  }
+  
 /*style jumotron*/
 .jumbotron {
     background-image: url('gambar1.jpg');
